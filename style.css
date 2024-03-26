@@ -1,0 +1,6 @@
+/* not recommended to use px because when users change the font of the browser, it will be just em and rem change, px is not changed because they are fixed */
+em ralated to parent 
+
+requirement: 
+1. body{font-size: 20px;} -> the font-size of the body is fixed at 20px
+=> so when you change the parent of the h3 -> only h3 be related to the parent 
